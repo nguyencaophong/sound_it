@@ -1,0 +1,118 @@
+
+
+ /* su dung trong page : /page/playlist/index */
+#add-playlist{
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#container-add-playlist{
+    top:0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0 ; 
+    background-color: black;
+    opacity: 0.5;
+    z-index: 100;
+    display: block; 
+}
+
+#form-add-playlist{
+   
+}
+
+
+
+#icon-close-form-add-playlist{
+    left: 90%; 
+    top: 1%; 
+}
+
+
+
+ /* su dung trong page : /page/playlist_id/index */
+#img-playlist{
+    width: 100%; 
+    padding-top: 100%;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: black; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#list-sound-in-playlist{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    height: 150px;   
+}
+
+
+
+
+/* hiển thị thêm một playlist mới  */
+
+.form-add-new-playlist{
+    width: 300px;
+    display: var(--flex); 
+    flex-direction: var(--flex-col);
+    justify-content: var(--justify-between);
+    border-style: var(--border-solid);
+    border-width: var(--border);
+    border-color: red;
+    padding-top: var(--p-4);
+    padding-right: var(--p-8);
+    padding-bottom: var(--p-4);
+    padding-left: var(--p-8);
+    border-radius: var(--rounded-2xl);
+}
+
+.form-add-new-playlist__label{
+    display: var(--block); 
+}
+
+.text-new-playlist__label{
+    font-size: var(--text-3xl);
+    font-weight: var(--font-semibold);
+    color: white;
+}
+
+.form-add-new-playlist__content{
+    display: var(--flex); 
+    flex-direction: var(--flex-col);
+    gap: 2;
+}
+
+.form-add-new-playlist__input{
+    display: var(--block);
+}
+
+.input-add-new-playlist{
+    width: var(--w-full);
+    padding-top: var(--p-3)!important;
+    padding-right: var(--p-4)!important;
+    padding-bottom: var(--p-3)!important; 
+    padding-left: var(--p-4)!important;
+    font-size: var(--text-2xl)!important;
+    font-weight: var(--font-semibold)!important;
+}
+
+.form-add-new-playlist__button{
+    display: var(--block);
+}
+
+.button-add-new-playlist{
+    width: var(--w-full);
+    border-radius: var(--rounded-xl);
+    padding-top: var(--p-3);
+    padding-bottom: var(--p-3);
+}
+
+.text-new-playlist__button{
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+}
